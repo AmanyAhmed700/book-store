@@ -1,0 +1,87 @@
+.contact{
+    padding: 10px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-wrapper{
+    height: calc(100vh - 200px);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: rgba(63, 144, 192, 0.768);
+    border-radius: 20px;
+}
+
+.contact-title{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 20px;
+ margin-bottom: 20px; 
+
+}
+.iconform{
+    font-size: 27px; 
+      color: white; 
+}
+
+.contact-title h1{
+ font-size: 27px; 
+ padding-left: 10px;
+ color: white;
+ 
+}
+
+.icon{
+    font-size: 20px;
+     color: white;
+}
+
+.contact-infor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+     width: 100%;
+    padding: 9px;
+    border-radius: 7px;
+     border: none;
+}
+.form-info textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   width: 100%;
+    padding: 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+.form-info button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   width: 100%;
+    padding: 9px;
+    background-color: #3f90c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+
+.form-info button:hover{
+     background-color:darkblue
+}

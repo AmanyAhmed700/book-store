@@ -1,0 +1,115 @@
+.slider-cont{
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.sliderwrapper{
+    height: 100%;
+    display: flex;
+    transition: all 1.3s ease;
+}
+.arrright
+{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0, 0, 110, 0.5);
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 30px;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        color: var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.arrleft{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 110, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: var(--main-color);
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.slide{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.firstbook{
+    background: #c278a6;
+background: radial-gradient(circle, rgba(194, 120, 166, 1) 0%, rgba(148, 187, 233, 1) 84%);
+}
+
+.secondbook{
+    background: #2a419b;
+    background: linear-gradient(90deg, rgba(42, 65, 155, 1) 0%, rgba(199, 152, 87, 1) 50%, rgba(83, 168, 237, 1) 100%);
+}
+
+.thirdbook{
+    background: #7a2fa8;
+background: linear-gradient(90deg, rgba(122, 47, 168, 1) 0%, rgba(212, 186, 163, 1) 50%, rgba(63, 110, 150, 1) 100%);
+}
+.slideimagewrap{
+width: 50%;
+height: 60%;
+}
+
+.slideimagewrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slideinfo{
+    width: 50%;
+    margin-right: 40px;
+}
+.slideinfo h1{
+    font-size: 35px;
+}
+
+.slideinfo p{
+    font-size: 20px;
+}
+
+
+
+@media(max-width:720px){
+    .slideinfo{
+        margin-right: 20px;
+    }
+    .slideinfo h1{
+  font-size: 25px;
+    }
+
+    .slideinfo p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:520px){
+.slider-cont{
+    display: none;
+}
+}
